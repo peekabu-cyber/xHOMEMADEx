@@ -11,7 +11,6 @@ class Meals extends React.Component {
                 <Nav/>
                 <div id="addOwnMeal"></div>
                 <div id="recipes" style={{width:"100%"}}></div>
-                <div id = "TargetRank"></div>
             </div>
         )
     }

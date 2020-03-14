@@ -7,6 +7,8 @@ import Contact from "./components/Contact";
 import Login from "./components/login";
 import Signup from "./components/Signup"
 import Error from "./components/error"
+import Signout from "./components/signout"
+
 const Router = () => (
 	<BrowserRouter>
 	<Switch>
@@ -16,6 +18,7 @@ const Router = () => (
 		<Route path = "/contact" component = {Contact}/>
 		<Route path = "/login" component = {Login}/>
 		<Route path = "/signup" component = {Signup}/>
+		<Route path = "/signout" component = {Signout}/>
 		<Route component={Error}/>
 	</Switch>
 	</BrowserRouter>

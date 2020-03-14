@@ -8,7 +8,7 @@ class Login extends Component{
         return(
             <div style = {{height:"100%"}}>
                 <Nav/>
-                <div id = "login-form" >
+                <div id = "login-form">
                     <form method="post" action="http://localhost:8000/login.php">
                         <div>
                             <label for="username">Username: </label>
