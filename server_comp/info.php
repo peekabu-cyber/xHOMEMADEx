@@ -33,7 +33,6 @@ $sourceLink = $_POST["sourcelink"];
         <input type="hidden" name = "meal_name" value="<?php echo $meal_name?>" />
     </form>
     <iframe src="<?php echo $sourceLink?>" style="width: 100%;height: 600px;">
-ljo;j
     </iframe>
                 <!--        <button class=" btn btn-warning rounded mx-auto d-block btn btn-danger"></button>-->
 

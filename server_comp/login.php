@@ -1,7 +1,6 @@
 <?php
 
 require './credentials.php';
-
 session_start();
 $clientUsername = trim($_POST['client_username']);
 $clientPassword = trim($_POST["client_password"]);
