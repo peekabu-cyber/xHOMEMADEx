@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",
-    "start": "cd server_comp &&  php -S localhost:8000",
+    "start": "cd server_comp && node index.js ",
     "server": "cd server_comp && php -S localhost:8000",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
